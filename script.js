@@ -1,7 +1,14 @@
-document.getElementById('1').addEventListener('click', () => {
-  document.querySelector('audio').play()
+
+
+document.getElementById('button1').addEventListener('click', () => {
+  document.getElementById('audio1').play()
 })
 
-document.querySelector('button').addEventListener('dblclick', () => {
-  document.querySelector('audio').pause()
+document.getElementById('button1').addEventListener('dblclick', () => {
+  document.getElementById('audio1').pause()
 })
+
+
+document.getElementById('button2').onclick = function() {
+  document.getElementById('div1').hidden = true;
+}
