@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', () => {
+document.getElementById('1').addEventListener('click', () => {
   document.querySelector('audio').play()
 })
 
