@@ -1,5 +1,3 @@
-
-
 document.getElementById('button1').addEventListener('click', () => {
   document.getElementById('audio1').play()
 })
