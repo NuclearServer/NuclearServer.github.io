@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Music</title>
+  <title>&?</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Roboto+Slab&display=swap');
@@ -13,45 +13,56 @@
 </head>
 
 <body>
-  <button class="styled" type="button" id="1">Music</button>
-  <script src="script.js"></script>
-  <audio controls src="unnamed.mp3" hidden>
+
+  <button class="styled" type="button" id="button1">Music</button>
+
+  <audio controls id="audio1" src="1.mp3" hidden>
   </audio>
   <p> One click = play - Double click = pause.</p>
-  <fieldset>
-    <legend>Your gender? </legend>
-    <div>
-      <input type="checkbox">
-      <label for="Male">Male</label>
-    </div>
-    <div>
-      <input type="checkbox">
-      <label for="Female">Female</label>
-    </div>
-    <div>
-      <input type="checkbox">
-      <label for="Mechanic">Mechanic</label>
-    </div>
-    <div>
-      <input type="checkbox">
-      <label for="Walmart Bag">Walmart Bag</label>
-    </div>
-    <div>
-      <input type="checkbox">
-      <label for="Nigga">Nigga</label>
-    </div>
-    <div>
-      <input type="checkbox">
-      <label for="Marvan">Marvan<img src="1.png"></label>
-    </div>
-    <div>
-      <input type="checkbox">
-      <label for="Dalbayob">Dalbayob</label>
-    </div>
-    <div>
-      <button type="button" id="2">Enter</button>
-    </div>
-  </fieldset>
+  <div id="div1">
+    <fieldset id="gender">
+      <legend>Your gender? </legend>
+      <div>
+        <input type="checkbox">
+        <label for="Male">Male</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label for="Female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label for="Mechanic">Mechanic</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label for="Walmart Bag">Walmart Bag</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label for="Nigga">Nigga</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label for="Marvan">Marvan<img src="1.png"></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <label for="Dalbayob">Dalbayob</label>
+      </div>
+      <div>
+        <button type="button" id="button2"> Enter</button>
+      </div>
+    </fieldset>
+  </div>
+  <p id="text1"> down </p>
+
+  <video width="520" height="440" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <script src="script.js"></script>
 
 </body>
 
